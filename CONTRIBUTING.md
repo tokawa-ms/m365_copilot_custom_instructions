@@ -25,11 +25,11 @@ pwsh -File .\scripts\Update-AllInstructions.ps1
 pwsh -File .\scripts\Update-AllInstructions.ps1 -Check
 ```
 
-`-Check`はファイルを変更せず、個別項目との不一致や生成物の欠落がある場合にエラーを返します。01〜21の21項目を収録し、00の一括版はモジュール数に加算しません。16は社内文脈の共通項目、17〜21は職種別の5項目です。
+`-Check`はファイルを変更せず、個別項目との不一致や生成物の欠落がある場合にエラーを返します。01〜24の24項目を収録し、00の一括版はモジュール数に加算しません。16は社内文脈の共通項目、17〜24は職種別の8項目です。
 
-各言語の `presets/` にある職種別5セットも同じスクリプトで生成・検査します。新規モジュールには数えません。組み合わせは `scripts/Update-AllInstructions.ps1` の `$baseModules` と `$presets` で定義し、変更時は日英のトップページのおすすめ表も更新してください。セットの本文は個別項目から生成し、直接編集しないでください。
+各言語の `presets/` にある職種別8セットも同じスクリプトで生成・検査します。新規モジュールには数えません。組み合わせは `scripts/Update-AllInstructions.ps1` の `$baseModules` と `$presets` で定義し、変更時は日英のトップページのおすすめ表も更新してください。セットの本文は個別項目から生成し、直接編集しないでください。
 
-全セットの共通項目は01〜09・12・14・15・16の13項目です。エンジニアには10・17、ほかの職種には18〜21の該当項目を加えます。コピー用本文の冒頭には、生成スクリプトの各言語の `PresetPolicy` で定義した条件付き適用方針を置き、その後に個別項目の全文を連結します。適用方針は新規モジュールとして数えず、全21項目の一括版には追加しません。適用方針も日英で揃え、常設によって不要な検索・分析・回答構成を強制しない内容を維持してください。
+全セットの共通項目は01〜09・12・14・15・16の13項目です。エンジニアには10・17、ほかの職種には18〜24の該当項目を加えます。コピー用本文の冒頭には、生成スクリプトの各言語の `PresetPolicy` で定義した条件付き適用方針を置き、その後に個別項目の全文を連結します。適用方針は新規モジュールとして数えず、全24項目の一括版には追加しません。適用方針も日英で揃え、常設によって不要な検索・分析・回答構成を強制しない内容を維持してください。
 
 他の項目の選択を前提にせず、単独で意味が通る文章にしてください。「別のルールを参照」とだけ書くのではなく、その項目に必要な条件や例外を短く記載します。特に合成データと実在の事実、設計案と既存仕様を区別してください。
 
@@ -76,11 +76,11 @@ pwsh -File .\scripts\Update-AllInstructions.ps1
 pwsh -File .\scripts\Update-AllInstructions.ps1 -Check
 ```
 
-`-Check` does not modify files and fails if generated files are missing or out of sync. The collection contains 21 individual modules, 01–21; the combined edition does not count as an extra module. Module 16 provides shared work-context guidance, and 17–21 are the five role-specific modules.
+`-Check` does not modify files and fails if generated files are missing or out of sync. The collection contains 24 individual modules, 01–24; the combined edition does not count as an extra module. Module 16 provides shared work-context guidance, and 17–24 are the eight role-specific modules.
 
-The same script generates and checks the five role sets in each language's `presets/` directory. They do not count as new modules. Define combinations in `$baseModules` and `$presets` in `scripts/Update-AllInstructions.ps1`, and update the recommended-set tables in both root READMEs when changing them. Edit source modules rather than generated set content.
+The same script generates and checks the eight role sets in each language's `presets/` directory. They do not count as new modules. Define combinations in `$baseModules` and `$presets` in `scripts/Update-AllInstructions.ps1`, and update the recommended-set tables in both root READMEs when changing them. Edit source modules rather than generated set content.
 
-All sets share 13 modules: 01-09, 12, 14, 15, and 16. Add 10 and 17 for engineers, or the relevant module from 18-21 for each other role. Start each copyable block with the conditional application guidance defined in each language's `PresetPolicy` in the generator, then concatenate the complete source modules. This guidance does not count as a new module and is not added to the all-21 combined edition. Keep it aligned across languages and ensure that standing instructions do not impose unnecessary searches, analyses, or response structures.
+All sets share 13 modules: 01-09, 12, 14, 15, and 16. Add 10 and 17 for engineers, or the relevant module from 18-24 for each other role. Start each copyable block with the conditional application guidance defined in each language's `PresetPolicy` in the generator, then concatenate the complete source modules. This guidance does not count as a new module and is not added to the all-24 combined edition. Keep it aligned across languages and ensure that standing instructions do not impose unnecessary searches, analyses, or response structures.
 
 Each module must work on its own. Include the conditions and exceptions it needs instead of relying on another module being selected. In particular, distinguish synthetic data from real-world facts and proposed designs from existing specifications.
 

@@ -62,6 +62,33 @@ $presets = @(
         }
         Modules = @('21-executive-strategy')
     }
+    @{
+        Slug    = 'general-affairs'
+        Titles  = @{ ja = '総務向けおすすめセット'; en = 'Recommended set for general affairs' }
+        Reasons = @{
+            ja = '根拠と不確実性の扱いを揃える共通13項目に、規程・契約と業務運用を加えたセットです。有効な規程と個別例外を区別し、申請案内、購買・契約更新、施設・備品管理、社内周知を支援します。'
+            en = 'Adds policies, contracts, and operations to 13 shared modules for consistent handling of evidence and uncertainty. Distinguishes policies in force from individual exceptions and supports applications, purchasing and renewals, facilities and equipment, and internal communications.'
+        }
+        Modules = @('22-general-affairs')
+    }
+    @{
+        Slug    = 'accounting'
+        Titles  = @{ ja = '経理向けおすすめセット'; en = 'Recommended set for accounting' }
+        Reasons = @{
+            ja = '根拠と不確実性の扱いを揃える共通13項目に、証憑照合と会計判断を加えたセットです。経費・請求・支払の確認、仕訳案、決算・差異分析を支援し、処理案と承認・実行済みの記録を区別します。'
+            en = 'Adds evidence reconciliation and accounting judgments to 13 shared modules for consistent handling of evidence and uncertainty. Supports expense, invoice, and payment checks, proposed entries, close, and variance analysis while distinguishing proposals from approved or executed records.'
+        }
+        Modules = @('23-accounting-controls')
+    }
+    @{
+        Slug    = 'human-resources'
+        Titles  = @{ ja = '人事向けおすすめセット'; en = 'Recommended set for human resources' }
+        Reasons = @{
+            ja = '根拠と不確実性の扱いを揃える共通13項目に、制度・労務と公平な判断支援を加えたセットです。制度の適用条件、職務に関係する証拠、個人情報の目的限定を重視し、重大な人事判断は権限者による確認を必要とします。'
+            en = 'Adds employment policies and fair decision support to 13 shared modules for consistent handling of evidence and uncertainty. Emphasizes policy eligibility, job-related evidence, and purpose-limited personal data, requiring authorized review of consequential personnel decisions.'
+        }
+        Modules = @('24-human-resources')
+    }
 )
 
 foreach ($language in $languages) {

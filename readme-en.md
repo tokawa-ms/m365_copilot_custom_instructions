@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Custom Instructions by tokawa-ms — An unofficial collection for Microsoft 365 Copilot. 21 modules in Japanese and English" width="100%">
+  <img src="assets/banner.svg" alt="Custom Instructions by tokawa-ms — An unofficial collection for Microsoft 365 Copilot. 24 modules in Japanese and English" width="100%">
 </p>
 
 <h1 align="center">Custom Instructions by tokawa-ms</h1>
@@ -8,12 +8,12 @@
 
 <p align="center">
   Research, write, compare, and communicate.<br>
-  Pick from 21 instruction modules to fit the way you work.
+  Pick from 24 instruction modules to fit the way you work.
 </p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22c55e?style=flat-square" alt="License: MIT"></a>
-  <a href="#-instruction-catalog"><img src="https://img.shields.io/badge/Modules-21-6366f1?style=flat-square" alt="21 modules"></a>
+  <a href="#-instruction-catalog"><img src="https://img.shields.io/badge/Modules-24-6366f1?style=flat-square" alt="24 modules"></a>
   <a href="readme.md"><img src="https://img.shields.io/badge/Languages-日本語%20%7C%20English-0891b2?style=flat-square" alt="Japanese and English"></a>
   <img src="https://img.shields.io/badge/Workflow-Copy%20%26%20Paste-f59e0b?style=flat-square" alt="Copy and paste workflow">
 </p>
@@ -28,7 +28,7 @@
 
 ---
 
-A collection of custom instructions for tailoring Microsoft 365 Copilot responses to your workflow. Choose only the modules you need, copy them, and make them your own. The Japanese and English editions cover the same 21 topics in separate language directories.
+A collection of custom instructions for tailoring Microsoft 365 Copilot responses to your workflow. Choose only the modules you need, copy them, and make them your own. The Japanese and English editions cover the same 24 topics in separate language directories.
 
 | 🧩 Pick what you need                                                    | 📋 Ready to copy                                                        | 🌐 Share in two languages                                                        |
 | ------------------------------------------------------------------------ | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -50,7 +50,7 @@ A collection of custom instructions for tailoring Microsoft 365 Copilot response
 
 To combine modules, join their contents, including their headings, with blank lines. Do not paste the surrounding explanations or code-fence markers. You do not need both language versions of the same module.
 
-To copy all 21 modules at once, use the **[English combined edition](instructions/en/00-all/README.md)** or the **[Japanese combined edition](instructions/ja/00-all/README.md)**. Each `00-all` directory includes a README with one copyable block and a `custom-instructions.md` file containing only the instructions. Do not paste both the combined edition and its individual modules.
+To copy all 24 modules at once, use the **[English combined edition](instructions/en/00-all/README.md)** or the **[Japanese combined edition](instructions/ja/00-all/README.md)**. Each `00-all` directory includes a README with one copyable block and a `custom-instructions.md` file containing only the instructions. Do not paste both the combined edition and its individual modules.
 
 > [!TIP]
 > Start with **01 Responsible AI + 07 Uncertainty + 09 Language**. For task-specific guidance such as detailed design documents, you can include a module in the individual prompt instead of keeping it in your standing instructions.
@@ -61,30 +61,33 @@ Check feature availability, settings, input limits, and scope in your own enviro
 
 Numbers organize the collection; they do not set execution order or priority. Each page includes a use case, a copyable instruction block, and customization notes.
 
-| #   | Module                                            | Use it to…                                                                    |                            日本語                            |                           English                            |
-| --- | ------------------------------------------------- | ----------------------------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 00  | All instructions                                  | Copy modules 01–21 in one step                                                |           [開く](instructions/ja/00-all/README.md)           |           [Open](instructions/en/00-all/README.md)           |
-| 01  | Responsible AI                                    | Consider safety, privacy, and fairness                                        |     [開く](instructions/ja/01-responsible-ai/README.md)      |     [Open](instructions/en/01-responsible-ai/README.md)      |
-| 02  | Research                                          | Prioritize primary sources and cover key questions                            |        [開く](instructions/ja/02-research/README.md)         |        [Open](instructions/en/02-research/README.md)         |
-| 03  | Conflicting sources                               | Explain disagreements between sources                                         |   [開く](instructions/ja/03-conflicting-sources/README.md)   |   [Open](instructions/en/03-conflicting-sources/README.md)   |
-| 04  | Entity verification                               | Avoid confusing identical or similar names                                    |   [開く](instructions/ja/04-entity-verification/README.md)   |   [Open](instructions/en/04-entity-verification/README.md)   |
-| 05  | Quantitative data                                 | Clarify subjects, periods, units, and assumptions                             |    [開く](instructions/ja/05-quantitative-data/README.md)    |    [Open](instructions/en/05-quantitative-data/README.md)    |
-| 06  | Ambiguity                                         | Reduce unnecessary questions and risky assumptions                            |        [開く](instructions/ja/06-ambiguity/README.md)        |        [Open](instructions/en/06-ambiguity/README.md)        |
-| 07  | Uncertainty                                       | Separate facts, inferences, proposals, and unknowns                           |       [開く](instructions/ja/07-uncertainty/README.md)       |       [Open](instructions/en/07-uncertainty/README.md)       |
-| 08  | High-risk contexts                                | Handle consequential assumptions and claims carefully                         |        [開く](instructions/ja/08-high-risk/README.md)        |        [Open](instructions/en/08-high-risk/README.md)        |
-| 09  | Language                                          | Control the default response language                                         |        [開く](instructions/ja/09-language/README.md)         |        [Open](instructions/en/09-language/README.md)         |
-| 10  | Technical documentation                           | Write concrete documentation that covers exceptions                           | [開く](instructions/ja/10-technical-documentation/README.md) | [Open](instructions/en/10-technical-documentation/README.md) |
-| 11  | Detailed design                                   | Standardize design structure and track open decisions                         |     [開く](instructions/ja/11-detailed-design/README.md)     |     [Open](instructions/en/11-detailed-design/README.md)     |
-| 12  | Market analysis                                   | Make evidence-based comparisons and analyses                                  |     [開く](instructions/ja/12-market-analysis/README.md)     |     [Open](instructions/en/12-market-analysis/README.md)     |
-| 13  | Synthetic data                                    | Create realistic demo data without presenting it as real                      |     [開く](instructions/ja/13-synthetic-data/README.md)      |     [Open](instructions/en/13-synthetic-data/README.md)      |
-| 14  | Audience-first documents                          | Build materials around audience needs and actions                             |     [開く](instructions/ja/14-audience-first/README.md)      |     [Open](instructions/en/14-audience-first/README.md)      |
-| 15  | Instruction priority                              | Resolve conflicts between selected instructions                               |  [開く](instructions/ja/15-instruction-priority/README.md)   |  [Open](instructions/en/15-instruction-priority/README.md)   |
-| 16  | Work context and decision history                 | Use internal agreements and constraints alongside external evidence           |      [開く](instructions/ja/16-work-context/README.md)       |      [Open](instructions/en/16-work-context/README.md)       |
-| 17  | Engineering: design decisions and validation      | Make testable technical proposals grounded in existing designs                |  [開く](instructions/ja/17-engineering-decisions/README.md)  |  [Open](instructions/en/17-engineering-decisions/README.md)  |
-| 18  | Marketing: customer insight and experiment design | Turn customer evidence into messaging and measurable campaigns                |   [開く](instructions/ja/18-marketing-evidence/README.md)    |   [Open](instructions/en/18-marketing-evidence/README.md)    |
-| 19  | Sales: opportunity evidence and next agreements   | Separate customer facts from internal expectations and define next agreements |   [開く](instructions/ja/19-sales-qualification/README.md)   |   [Open](instructions/en/19-sales-qualification/README.md)   |
-| 20  | Management: team execution and support            | Support delivery through outcomes, dependencies, and capacity                 |  [開く](instructions/ja/20-management-execution/README.md)   |  [Open](instructions/en/20-management-execution/README.md)   |
-| 21  | Executives: strategy and resource allocation      | Compare strategic options, investment allocation, and decision criteria       |   [開く](instructions/ja/21-executive-strategy/README.md)    |   [Open](instructions/en/21-executive-strategy/README.md)    |
+| #   | Module                                                         | Use it to…                                                                         |                            日本語                            |                           English                            |
+| --- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 00  | All instructions                                               | Copy modules 01–24 in one step                                                     |           [開く](instructions/ja/00-all/README.md)           |           [Open](instructions/en/00-all/README.md)           |
+| 01  | Responsible AI                                                 | Consider safety, privacy, and fairness                                             |     [開く](instructions/ja/01-responsible-ai/README.md)      |     [Open](instructions/en/01-responsible-ai/README.md)      |
+| 02  | Research                                                       | Prioritize primary sources and cover key questions                                 |        [開く](instructions/ja/02-research/README.md)         |        [Open](instructions/en/02-research/README.md)         |
+| 03  | Conflicting sources                                            | Explain disagreements between sources                                              |   [開く](instructions/ja/03-conflicting-sources/README.md)   |   [Open](instructions/en/03-conflicting-sources/README.md)   |
+| 04  | Entity verification                                            | Avoid confusing identical or similar names                                         |   [開く](instructions/ja/04-entity-verification/README.md)   |   [Open](instructions/en/04-entity-verification/README.md)   |
+| 05  | Quantitative data                                              | Clarify subjects, periods, units, and assumptions                                  |    [開く](instructions/ja/05-quantitative-data/README.md)    |    [Open](instructions/en/05-quantitative-data/README.md)    |
+| 06  | Ambiguity                                                      | Reduce unnecessary questions and risky assumptions                                 |        [開く](instructions/ja/06-ambiguity/README.md)        |        [Open](instructions/en/06-ambiguity/README.md)        |
+| 07  | Uncertainty                                                    | Separate facts, inferences, proposals, and unknowns                                |       [開く](instructions/ja/07-uncertainty/README.md)       |       [Open](instructions/en/07-uncertainty/README.md)       |
+| 08  | High-risk contexts                                             | Handle consequential assumptions and claims carefully                              |        [開く](instructions/ja/08-high-risk/README.md)        |        [Open](instructions/en/08-high-risk/README.md)        |
+| 09  | Language                                                       | Control the default response language                                              |        [開く](instructions/ja/09-language/README.md)         |        [Open](instructions/en/09-language/README.md)         |
+| 10  | Technical documentation                                        | Write concrete documentation that covers exceptions                                | [開く](instructions/ja/10-technical-documentation/README.md) | [Open](instructions/en/10-technical-documentation/README.md) |
+| 11  | Detailed design                                                | Standardize design structure and track open decisions                              |     [開く](instructions/ja/11-detailed-design/README.md)     |     [Open](instructions/en/11-detailed-design/README.md)     |
+| 12  | Market analysis                                                | Make evidence-based comparisons and analyses                                       |     [開く](instructions/ja/12-market-analysis/README.md)     |     [Open](instructions/en/12-market-analysis/README.md)     |
+| 13  | Synthetic data                                                 | Create realistic demo data without presenting it as real                           |     [開く](instructions/ja/13-synthetic-data/README.md)      |     [Open](instructions/en/13-synthetic-data/README.md)      |
+| 14  | Audience-first documents                                       | Build materials around audience needs and actions                                  |     [開く](instructions/ja/14-audience-first/README.md)      |     [Open](instructions/en/14-audience-first/README.md)      |
+| 15  | Instruction priority                                           | Resolve conflicts between selected instructions                                    |  [開く](instructions/ja/15-instruction-priority/README.md)   |  [Open](instructions/en/15-instruction-priority/README.md)   |
+| 16  | Work context and decision history                              | Use internal agreements and constraints alongside external evidence                |      [開く](instructions/ja/16-work-context/README.md)       |      [Open](instructions/en/16-work-context/README.md)       |
+| 17  | Engineering: design decisions and validation                   | Make testable technical proposals grounded in existing designs                     |  [開く](instructions/ja/17-engineering-decisions/README.md)  |  [Open](instructions/en/17-engineering-decisions/README.md)  |
+| 18  | Marketing: customer insight and experiment design              | Turn customer evidence into messaging and measurable campaigns                     |   [開く](instructions/ja/18-marketing-evidence/README.md)    |   [Open](instructions/en/18-marketing-evidence/README.md)    |
+| 19  | Sales: opportunity evidence and next agreements                | Separate customer facts from internal expectations and define next agreements      |   [開く](instructions/ja/19-sales-qualification/README.md)   |   [Open](instructions/en/19-sales-qualification/README.md)   |
+| 20  | Management: team execution and support                         | Support delivery through outcomes, dependencies, and capacity                      |  [開く](instructions/ja/20-management-execution/README.md)   |  [Open](instructions/en/20-management-execution/README.md)   |
+| 21  | Executives: strategy and resource allocation                   | Compare strategic options, investment allocation, and decision criteria            |   [開く](instructions/ja/21-executive-strategy/README.md)    |   [Open](instructions/en/21-executive-strategy/README.md)    |
+| 22  | General affairs: policies, contracts, and operations           | Support applications, contracts, and facilities using policies and approval status |     [開く](instructions/ja/22-general-affairs/README.md)     |     [Open](instructions/en/22-general-affairs/README.md)     |
+| 23  | Accounting: evidence reconciliation and accounting judgments   | Reconcile evidence and identify proposed entries, differences, and unknowns        |   [開く](instructions/ja/23-accounting-controls/README.md)   |   [Open](instructions/en/23-accounting-controls/README.md)   |
+| 24  | Human resources: employment policies and fair decision support | Support decisions using policy eligibility and job-related evidence                |     [開く](instructions/ja/24-human-resources/README.md)     |     [Open](instructions/en/24-human-resources/README.md)     |
 
 Module 09 has locale-specific defaults. The Japanese edition defaults summaries to Japanese, while the English edition responds in the language used by the user unless a response language is explicitly specified.
 
@@ -102,6 +105,9 @@ Module 09 has locale-specific defaults. The Japanese edition defaults summaries 
 | Sales meeting preparation and opportunity analysis | **16** Work context + **19** Opportunity evidence and next agreements                                                     |
 | Team management                                    | **16** Work context + **20** Team execution and support                                                                   |
 | Executive strategy and investment decisions        | **16** Work context + **21** Strategy and resource allocation                                                             |
+| General affairs applications and contract renewals | **16** Work context + **22** Policies, contracts, and operations                                                          |
+| Accounting reconciliation and close preparation    | **16** Work context + **23** Evidence reconciliation and accounting judgments                                             |
+| HR policy guidance and employment procedures       | **16** Work context + **24** Employment policies and fair decision support                                                |
 
 When assembling the combinations above from individual modules, add 08 for high-risk contexts and 15 to make priorities explicit. The role sets below already include both. Omitting 01 or 15 does not remove product safety constraints or organizational policies.
 
@@ -109,19 +115,22 @@ When assembling the combinations above from individual modules, add 08 for high-
 
 These sets provide consistent handling of evidence and uncertainty across roles. Copy the single code block on a set's page to start using it. Every set includes **13 shared modules: 01-09 + 12 Market analysis + 14 Audience-first + 15 Instruction priority + 16 Work context**. Shared application guidance comes first, followed by the complete source instructions in numerical order, including the role-specific additions below.
 
-| Role       | Modules added to the base set                                           | 日本語                                                 | English                                              |
-| ---------- | ----------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------- |
-| Engineers  | **10** Technical documentation + **17** Design decisions and validation | [コピー用セット](instructions/ja/presets/engineer.md)  | [Copyable set](instructions/en/presets/engineer.md)  |
-| Marketing  | **18** Customer insight and experiment design                           | [コピー用セット](instructions/ja/presets/marketing.md) | [Copyable set](instructions/en/presets/marketing.md) |
-| Sales      | **19** Opportunity evidence and next agreements                         | [コピー用セット](instructions/ja/presets/sales.md)     | [Copyable set](instructions/en/presets/sales.md)     |
-| Managers   | **20** Team execution and support                                       | [コピー用セット](instructions/ja/presets/manager.md)   | [Copyable set](instructions/en/presets/manager.md)   |
-| Executives | **21** Strategy and resource allocation                                 | [コピー用セット](instructions/ja/presets/executive.md) | [Copyable set](instructions/en/presets/executive.md) |
+| Role            | Modules added to the base set                                           | 日本語                                                       | English                                                    |
+| --------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| Engineers       | **10** Technical documentation + **17** Design decisions and validation | [コピー用セット](instructions/ja/presets/engineer.md)        | [Copyable set](instructions/en/presets/engineer.md)        |
+| Marketing       | **18** Customer insight and experiment design                           | [コピー用セット](instructions/ja/presets/marketing.md)       | [Copyable set](instructions/en/presets/marketing.md)       |
+| Sales           | **19** Opportunity evidence and next agreements                         | [コピー用セット](instructions/ja/presets/sales.md)           | [Copyable set](instructions/en/presets/sales.md)           |
+| Managers        | **20** Team execution and support                                       | [コピー用セット](instructions/ja/presets/manager.md)         | [Copyable set](instructions/en/presets/manager.md)         |
+| Executives      | **21** Strategy and resource allocation                                 | [コピー用セット](instructions/ja/presets/executive.md)       | [Copyable set](instructions/en/presets/executive.md)       |
+| General affairs | **22** Policies, contracts, and operations                              | [コピー用セット](instructions/ja/presets/general-affairs.md) | [Copyable set](instructions/en/presets/general-affairs.md) |
+| Accounting      | **23** Evidence reconciliation and accounting judgments                 | [コピー用セット](instructions/ja/presets/accounting.md)      | [Copyable set](instructions/en/presets/accounting.md)      |
+| Human resources | **24** Employment policies and fair decision support                    | [コピー用セット](instructions/ja/presets/human-resources.md) | [Copyable set](instructions/en/presets/human-resources.md) |
 
 Start with one set; do not also paste the all-instructions edition or included individual modules. Remove whole modules if needed to fit your input limit. In English sets, module 09 follows the language of the user's request unless a response language is explicitly specified.
 
 Standing guidance does not mean executing every step on every request. Research and cross-check when factual verification is needed; apply high-risk checks, market analysis, audience-first structure, and internal searches when relevant. Do not add unnecessary searches, clarification questions, analytical frameworks, introductions, or next steps to simple formatting, translation, or short factual requests. The aim is rigor through necessary verification and clear distinctions between facts, inference, and unknowns, not longer answers.
 
-Modules 17 through 21 are role-specific. Select relevant roles rather than keeping all five in standing instructions, and specify the account or project, period, and reference materials in each request. Add 11 Detailed design and 13 Synthetic data to individual requests when needed. Management guidance focuses on team execution; executive guidance focuses on enterprise or business choices and resource allocation.
+Modules 17 through 24 cover eight roles. Select relevant roles rather than keeping all eight in standing instructions, and specify the account or project, period, and reference materials in each request. Add 11 Detailed design and 13 Synthetic data to individual requests when needed. Management guidance focuses on team execution; executive guidance focuses on enterprise or business choices and resource allocation. General affairs covers policies, contracts, and applications; accounting covers evidence reconciliation and proposed treatments; HR covers policy eligibility and fair procedures. Each distinguishes support from final approval and execution.
 
 These modules guide the use of available work information through capabilities such as Work IQ, alongside external primary sources appropriate to the question. Instructions alone do not add internal search or connections to a CRM, source code, or analytics systems. Treat inaccessible information as unverified.
 
@@ -146,14 +155,14 @@ Custom instructions are the policy layer of a harness, not an enforcement mechan
     │   │   └── custom-instructions.md
     │   ├── 01-responsible-ai/README.md
     │   ├── ...
-    │   └── 21-executive-strategy/README.md
+    │   └── 24-human-resources/README.md
     └── en/
         ├── 00-all/
         │   ├── README.md
         │   └── custom-instructions.md
         ├── 01-responsible-ai/README.md
         ├── ...
-        └── 21-executive-strategy/README.md
+        └── 24-human-resources/README.md
 ```
 
 ## 🛡️ Usage notes

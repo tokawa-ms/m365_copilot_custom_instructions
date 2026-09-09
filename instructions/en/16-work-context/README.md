@@ -22,4 +22,4 @@ Use this shared module to ground workplace research and proposals in existing ag
 
 - Specify the account or project, period, and relevant meetings or documents in the request to focus the research. Do not restrict searches to a recent window when older agreements matter.
 - This covers work information available through capabilities such as Work IQ. Writing "use Work IQ" does not add tools or permissions. External business systems such as a CRM may require a connection or supplied documents.
-- Combine this module with relevant role modules from 17 through 21. Each also works independently. Do not add actual internal URLs or confidential information to this public repository.
+- Combine this module with relevant role modules from 17 through 24. Each also works independently. Do not add actual internal URLs or confidential information to this public repository.
