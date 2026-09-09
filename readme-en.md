@@ -103,27 +103,29 @@ Module 09 has locale-specific defaults. The Japanese edition defaults summaries 
 | Team management                                    | **16** Work context + **20** Team execution and support                                                                   |
 | Executive strategy and investment decisions        | **16** Work context + **21** Strategy and resource allocation                                                             |
 
-Add 08 for high-risk contexts and 15 to make priorities explicit when combining modules. Omitting 01 or 15 does not remove product safety constraints or organizational policies.
+When assembling the combinations above from individual modules, add 08 for high-risk contexts and 15 to make priorities explicit. The role sets below already include both. Omitting 01 or 15 does not remove product safety constraints or organizational policies.
 
 ### Recommended role sets
 
-These sets extend the minimal two-module role combinations above with response fundamentals and related guidance. Copy the single code block on a set's page to start using it. Every set includes **01 Responsible AI + 07 Uncertainty + 09 Language + 16 Work context**, plus the modules below, without abridging the source instructions.
+These sets provide consistent handling of evidence and uncertainty across roles. Copy the single code block on a set's page to start using it. Every set includes **13 shared modules: 01-09 + 12 Market analysis + 14 Audience-first + 15 Instruction priority + 16 Work context**. Shared application guidance comes first, followed by the complete source instructions in numerical order, including the role-specific additions below.
 
-| Role       | Modules added to the base set                                                                  | 日本語                                                 | English                                              |
-| ---------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------- |
-| Engineers  | **10** Technical documentation + **17** Design decisions and validation                        | [コピー用セット](instructions/ja/presets/engineer.md)  | [Copyable set](instructions/en/presets/engineer.md)  |
-| Marketing  | **12** Market analysis + **14** Audience-first + **18** Customer insight and experiment design | [コピー用セット](instructions/ja/presets/marketing.md) | [Copyable set](instructions/en/presets/marketing.md) |
-| Sales      | **14** Audience-first + **19** Opportunity evidence and next agreements                        | [コピー用セット](instructions/ja/presets/sales.md)     | [Copyable set](instructions/en/presets/sales.md)     |
-| Managers   | **08** High-risk contexts + **20** Team execution and support                                  | [コピー用セット](instructions/ja/presets/manager.md)   | [Copyable set](instructions/en/presets/manager.md)   |
-| Executives | **05** Quantitative data + **12** Market analysis + **21** Strategy and resource allocation    | [コピー用セット](instructions/ja/presets/executive.md) | [Copyable set](instructions/en/presets/executive.md) |
+| Role       | Modules added to the base set                                           | 日本語                                                 | English                                              |
+| ---------- | ----------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------- |
+| Engineers  | **10** Technical documentation + **17** Design decisions and validation | [コピー用セット](instructions/ja/presets/engineer.md)  | [Copyable set](instructions/en/presets/engineer.md)  |
+| Marketing  | **18** Customer insight and experiment design                           | [コピー用セット](instructions/ja/presets/marketing.md) | [Copyable set](instructions/en/presets/marketing.md) |
+| Sales      | **19** Opportunity evidence and next agreements                         | [コピー用セット](instructions/ja/presets/sales.md)     | [Copyable set](instructions/en/presets/sales.md)     |
+| Managers   | **20** Team execution and support                                       | [コピー用セット](instructions/ja/presets/manager.md)   | [Copyable set](instructions/en/presets/manager.md)   |
+| Executives | **21** Strategy and resource allocation                                 | [コピー用セット](instructions/ja/presets/executive.md) | [Copyable set](instructions/en/presets/executive.md) |
 
 Start with one set; do not also paste the all-instructions edition or included individual modules. Remove whole modules if needed to fit your input limit. In English sets, module 09 follows the language of the user's request unless a response language is explicitly specified.
 
-Module 16 is shared across roles; 17 through 21 are role-specific. Select relevant roles rather than keeping all five in standing instructions, and specify the account or project, period, and reference materials in each request. Management guidance focuses on team execution; executive guidance focuses on enterprise or business choices and resource allocation.
+Standing guidance does not mean executing every step on every request. Research and cross-check when factual verification is needed; apply high-risk checks, market analysis, audience-first structure, and internal searches when relevant. Do not add unnecessary searches, clarification questions, analytical frameworks, introductions, or next steps to simple formatting, translation, or short factual requests. The aim is rigor through necessary verification and clear distinctions between facts, inference, and unknowns, not longer answers.
+
+Modules 17 through 21 are role-specific. Select relevant roles rather than keeping all five in standing instructions, and specify the account or project, period, and reference materials in each request. Add 11 Detailed design and 13 Synthetic data to individual requests when needed. Management guidance focuses on team execution; executive guidance focuses on enterprise or business choices and resource allocation.
 
 These modules guide the use of available work information through capabilities such as Work IQ, alongside external primary sources appropriate to the question. Instructions alone do not add internal search or connections to a CRM, source code, or analytics systems. Treat inaccessible information as unverified.
 
-Quality improvements are not guaranteed. Compare responses with and without the instructions using the same materials and request, checking evidence accuracy, missed constraints, unknowns presented as facts, actionable next steps, and response length, then adjust.
+Custom instructions are the policy layer of a harness, not an enforcement mechanism that guarantees searches run, citations are correct, or instructions are followed. Quality improvements are not guaranteed. Compare responses with and without the instructions, or before and after changes, using the same materials and request. Check evidence accuracy, missed constraints, unknowns presented as facts, actionable next steps when needed, and response length, then adjust. Use cases such as same-name companies, differently defined figures, conflicting sources, unavailable search, and simple text formatting to check both unsupported assertions and unnecessary searches or clarification questions.
 
 ## 📁 Repository layout
 
