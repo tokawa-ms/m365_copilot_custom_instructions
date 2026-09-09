@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Custom Instructions by tokawa-ms</title>
+  <desc id="desc">An independent, unofficial collection for Microsoft 365 Copilot, published by tokawa-ms. 21 copy-ready modules in Japanese and English. Not affiliated with, authorized, sponsored, or endorsed by Microsoft.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101c42"/>
+      <stop offset="0.55" stop-color="#29205c"/>
+      <stop offset="1" stop-color="#114957"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#77e8ed"/>
+      <stop offset="1" stop-color="#c7adff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <circle cx="1140" cy="34" r="205" fill="#a695ff" opacity="0.08"/>
+  <circle cx="1050" cy="340" r="170" fill="#5de7db" opacity="0.07"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="60" y="63" font-size="14" font-weight="700" letter-spacing="0" fill="#98e6ee">AN INDEPENDENT, UNOFFICIAL COLLECTION</text>
+    <text x="60" y="127" font-size="49" font-weight="700" fill="url(#accent)">Custom Instructions</text>
+    <text x="60" y="176" font-size="32" font-weight="700" fill="#ffffff">by tokawa-ms</text>
+    <text x="62" y="219" font-size="20" fill="#d8ddec">For Microsoft 365 Copilot</text>
+    <g font-size="14" font-weight="600" fill="#effbff">
+      <rect x="60" y="270" width="136" height="36" rx="18" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.2"/>
+      <text x="84" y="293">21 MODULES</text>
+      <rect x="208" y="270" width="154" height="36" rx="18" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.2"/>
+      <text x="230" y="293">JA + EN EDITIONS</text>
+      <rect x="374" y="270" width="132" height="36" rx="18" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.2"/>
+      <text x="398" y="293">MIT LICENSE</text>
+    </g>
+    <text x="60" y="338" font-size="14" fill="#d8ddec">Not affiliated with, authorized, sponsored, or endorsed by Microsoft.</text>
+    <g transform="translate(862 80)">
+      <rect x="30" y="0" width="210" height="198" rx="18" fill="#8bcad6" opacity="0.12" transform="rotate(9 135 99)"/>
+      <rect x="0" y="12" width="218" height="208" rx="18" fill="#182442" stroke="#92c8df" stroke-opacity="0.5"/>
+      <circle cx="24" cy="36" r="4" fill="#79e5de"/>
+      <circle cx="39" cy="36" r="4" fill="#c3a5fa"/>
+      <circle cx="54" cy="36" r="4" fill="#a2b6e7"/>
+      <text x="22" y="82" font-size="16" font-weight="700" fill="#ffffff">YOUR INSTRUCTIONS</text>
+      <g fill="#80e0df">
+        <rect x="22" y="107" width="12" height="12" rx="3"/>
+        <rect x="22" y="140" width="12" height="12" rx="3"/>
+        <rect x="22" y="173" width="12" height="12" rx="3"/>
+      </g>
+      <g fill="#b2c0d9">
+        <rect x="46" y="109" width="142" height="8" rx="4"/>
+        <rect x="46" y="142" width="110" height="8" rx="4"/>
+        <rect x="46" y="175" width="126" height="8" rx="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

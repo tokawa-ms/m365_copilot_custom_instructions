@@ -1,0 +1,29 @@
+# Local browser automation artifacts
+.playwright-mcp/
+playwright-report/
+blob-report/
+test-results/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Dependencies, coverage, and build output
+node_modules/
+coverage/
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
